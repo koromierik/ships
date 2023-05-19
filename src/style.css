@@ -3,21 +3,26 @@ File: style.css
 Author: Körömi Erik Márk
 Copyright: 2023, Körömi Erik Márk
 Group: Szoft I/2/N
-Date: 2023-05-11
+Date: 2023-05-19
 Github: https://github.com/koromierik
 Licenc: GNU GPL
 */
 #about{
     border-style: solid;
     border-width: 1px;
-    border-color: aqua;
+    border-color: rgb(0, 13, 255);
     text-align: center;
     position: fixed;
-    top: 50px;
+    top: 45px;
     right: 0;
     width: 600px;
     /* transform: rotate(45deg); */
     background-color:white;
     font-size: 15px;
+}
 
+#idezet{
+border-style: solid;
+border-color: blueviolet;
+position: fixed;
 }

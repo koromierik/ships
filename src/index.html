@@ -3,7 +3,7 @@ File: index.html
 Author: Körömi Erik Márk
 Copyright: 2023, Körömi Erik Márk
 Group: Szoft I/2/N
-Date: 2023-05-11
+Date: 2023-05-19
 Github: https://github.com/koromierik
 Licenc: GNU GPL
 -->
@@ -13,7 +13,7 @@ Licenc: GNU GPL
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sablon</title>
+    <title>Ships</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="style.css">
 
@@ -21,16 +21,33 @@ Licenc: GNU GPL
 <body>
 
     <div class="container">
-           
-        <h1>Sablon</h1>
-
+        <h1>Hajók</h1>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Név</th>
+                    <th>Méret(cm)</th>
+                    <th>Ár</th>
+                    <th>Személyek száma</th>
+                    <th>Utánfutó</th>
+                </tr>
+            </thead>
+            <tbody id="tbody"></tbody>
+        </table>
     </div>
-       
-       
-    <script src="js/bootstrap.js"></script>
-    <script src="app.js"></script>
-        
 
-        
+       
+    <div id="about">
+        Körömi Erik Márk, 2023.05.19, Szoft I/2/N
+    </div>
+
+    <div id="idezet">
+        Más a szándék és más a tett.
+        John Ronald Reuel Tolkien
+    </div>
+    
+<script src="js/bootstrap.js"></script>
+<script src="app.js"></script>        
+    
 </body>
 </html>
