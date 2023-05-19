@@ -1,0 +1,23 @@
+/*
+File: style.css
+Author: Körömi Erik Márk
+Copyright: 2023, Körömi Erik Márk
+Group: Szoft I/2/N
+Date: 2023-05-11
+Github: https://github.com/koromierik
+Licenc: GNU GPL
+*/
+#about{
+    border-style: solid;
+    border-width: 1px;
+    border-color: aqua;
+    text-align: center;
+    position: fixed;
+    top: 50px;
+    right: 0;
+    width: 600px;
+    /* transform: rotate(45deg); */
+    background-color:white;
+    font-size: 15px;
+
+}
